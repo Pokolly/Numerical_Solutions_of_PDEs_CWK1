@@ -1,3 +1,9 @@
+%The basis of the FTCS method:
+%Find The number of time steps, number of space steps, delta t and delta x
+%Then use the boundary conditions to find U(0,0) & U(0,N)
+%Then use the intial conditino to find U(1,j)
+%Then repeat these steps for all the other time steps
+
 initialcondition_x_1 = -1; %set up our initial conditions for x values
 initialcondition_x_2 = 1;
 number_of_timesteps=50 ;%time steps 
